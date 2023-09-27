@@ -80,7 +80,11 @@ createServer(async (req, res) => {
                         from: parseData.email,
                         to: emailForGetMessage,
                         subject: "Message from site",
-                        html: `<p>${parseData.message}</p>`
+                        html: `<p>
+                            <span>From ${parseData.email}</span>
+                            <p>${parseData.message}</p>
+                            
+                        </p>`
                     })
 
                     res.end("Success");
