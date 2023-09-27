@@ -7,5 +7,8 @@
     "start": "node main.js"
   },
   "author": "Gosha",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.5"
+  }
 }

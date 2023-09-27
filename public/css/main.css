@@ -161,6 +161,13 @@ body {
     color: #fff;
 }
 
+.message-form {
+    display: none;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
 @media screen and (max-width: 860px) {
     .main-logo {
         width: 400px;
